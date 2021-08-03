@@ -7,7 +7,7 @@
   <title>
     Koo&#39;s Portfolio Site
       |
-      404 Page not found
+      Emoji Support
 
 
     
@@ -19,8 +19,7 @@
   <meta
     name="description"
     content="
-      안녕하세요. 개발자 구지완입니다.
-Tech Stack: BigData, Python, Linux, Javascript, C, C#, Java
+      Guide to emoji usage in Hugo
 
 
     "
@@ -57,7 +56,7 @@ Tech Stack: BigData, Python, Linux, Javascript, C, C#, Java
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <link rel="canonical" href="/404.html" />
+  <link rel="canonical" href="/projects/emoji-support/" />
 
   
   
@@ -82,9 +81,8 @@ Tech Stack: BigData, Python, Linux, Javascript, C, C#, Java
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content="안녕하세요. 개발자 구지완입니다.
-Tech Stack: BigData, Python, Linux, Javascript, C, C#, Java"/>
+<meta name="twitter:title" content="Emoji Support"/>
+<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
 
 
 
@@ -93,6 +91,75 @@ Tech Stack: BigData, Python, Linux, Javascript, C, C#, Java"/>
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "projects",
+        "name": "Emoji Support",
+        "headline": "Emoji Support",
+        "alternativeHeadline": "",
+        "description": "
+      Guide to emoji usage in Hugo
+
+
+    ",
+        "inLanguage": "ko-kr",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/jwkoo34.github.io\/projects\/emoji-support\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Hugo Authors"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Hugo Authors"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Hugo Authors"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Hugo Authors"
+        },
+        "copyrightYear" : "2019",
+        "dateCreated": "2019-03-05T00:00:00.00Z",
+        "datePublished": "2019-03-05T00:00:00.00Z",
+        "dateModified": "2019-03-05T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Hugo Authors",
+            "url": "http://jwkoo34.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/jwkoo34.github.io\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "http:\/\/jwkoo34.github.io\/projects\/emoji-support\/",
+        "wordCount" : "123",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "emoji"
+
+    ]
+    }
+  </script>
+
+
 
 </head>
 <body>
@@ -230,11 +297,42 @@ Tech Stack: BigData, Python, Linux, Javascript, C, C#, Java"/>
       <main>
         <div class="autopagerize_page_element">
           <div class="content">
-  <div class="page_404">
-    <h1>404</h1>
-    <h2>Page Not Found</h2>
-    <p>Sorry, this page does not exist.</p>
-    <p>You can head back to <a href="http://jwkoo34.github.io/">homepage</a>.</p>
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    <div class="post-content">
+      
+      <div class="post-title">
+        <h1>Emoji Support</h1>
+        
+      </div><p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<!-- raw HTML omitted -->
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
+font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}</code></pre></div></div>
+    <div class="post-footer">
+      <div class="info">
+        
+
+        
+          <span class="separator"><a class="tag" href="/tags/emoji/">emoji</a></span>
+
+
+
+
+        
+      </div>
+    </div>
+
+    
   </div>
 
 
