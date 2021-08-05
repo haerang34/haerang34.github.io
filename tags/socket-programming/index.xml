@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on </title>
-    <link>http://jwkoo34.github.io/projects/</link>
-    <description>Recent content in Projects on </description>
+    <title>Socket Programming on </title>
+    <link>http://jwkoo34.github.io/tags/socket-programming/</link>
+    <description>Recent content in Socket Programming on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 03 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jwkoo34.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://jwkoo34.github.io/tags/socket-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>선박해양플랜트연구소 수중통신 과제</title>
       <link>http://jwkoo34.github.io/projects/kriso/</link>
