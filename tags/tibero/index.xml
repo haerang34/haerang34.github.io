@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tibero on </title>
+    <link>http://jwkoo34.github.io/tags/tibero/</link>
+    <description>Recent content in Tibero on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 01 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://jwkoo34.github.io/tags/tibero/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CDC(Change Data Capture) 프로그램 개발</title>
+      <link>http://jwkoo34.github.io/projects/cdc_dev/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jwkoo34.github.io/projects/cdc_dev/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
