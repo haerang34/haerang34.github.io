@@ -3,5 +3,5 @@
 1. Pelican Site
 ### https://haerang34.github.io/pelican-ssg
 
-1. Hugo Site
+2. Hugo Site
 ### https://haerang34.github.io/hugo-ssg
